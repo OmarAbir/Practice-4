@@ -1,0 +1,78 @@
+:root {
+    --blue: #0a0c19;
+    --dark-violet: #1b1938;
+    --violet: #aa5cdb;
+    --white: #fff;
+    --off-white: #dcdcdc;
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Lexend Deca", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--dark-violet);
+    height: 70vh;
+    width: 70%;
+    display: flex;
+
+}
+
+.text-container {
+    background-color: var(--dark-violet);
+    width: 50%;
+    height: 100%;
+    color: var(--white);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-container > .intro > h3{
+    
+        font-weight: 700;
+        font-size: 25px;
+        margin-bottom: 20px;
+}
+.text-container > .intro > p{
+    color: var(--off-white)  ;
+}
+
+
+
+
+
+.stat {
+    text-align: center;
+    display: flex;
+    gap: 30px;
+}
+
+.image-container {
+    background-color: #dcdcdc;
+    width: 50%;
+    height: 100%;
+}
+
+.image-container>img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+    
+}
